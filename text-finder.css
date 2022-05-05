@@ -1,0 +1,75 @@
+/*Css part of the text finder, any part of this file can be customised according to your need except #nav-stick_top*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+#nav-stick_top {
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  background: whitesmoke;
+  z-index: 99999;
+  transition: all 1.5s ease;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 0.8rem;
+  display: none;
+}
+#id_search-m{
+  padding: 10px;
+  border: 1px solid grey;
+  float: left;
+  width: 28%;
+  background: #f1f1f1;
+  border-radius: 15px 0px 0px 15px;
+}
+#id_search-b{
+  float: left;
+  padding: 8px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0px 15px 15px 0px;
+}
+.vr{
+  font-weight: 5px;
+  font-size: 30px;
+  color:#636363;
+  position: absolute;
+  left: 80%;
+}
+#sub_num_txt{
+  position: absolute;
+  font-size: 30px;
+  left: 73%;
+  top: 25%;
+}
+#sub_num_txt:hover{
+  color: #4cdbff;
+  text-shadow: 0px 0px 10px #4cdbff;
+}
+#add_num_txt{
+  position: absolute;
+  font-size: 30px;
+  left: 65%;
+  top: 25%;
+}
+#add_num_txt:hover{
+  color: #4cdbff;
+  text-shadow: 0px 0px 10px #4cdbff;
+}
+#cont_search{
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #969696;
+  position: absolute;
+  left: 48%;
+  max-width: 50px;
+  top: 35%;
+}
+#close_search{
+  font-weight: 20px;
+  font-size: 35px;
+  color: #6b6b6b;
+  position: absolute;
+  left: 85%;
+}
